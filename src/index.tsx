@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { DndProvider } from 'react-dnd';
-import { HTML5Backend } from 'react-dnd-html5-backend';
+import HTML5Backend from 'react-dnd-html5-backend';
 import { Container } from './Container';
 
 ReactDOM.render(
